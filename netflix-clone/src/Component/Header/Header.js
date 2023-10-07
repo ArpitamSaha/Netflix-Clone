@@ -10,7 +10,7 @@ const Header = () => {
             <nav className="navbar">
                 <img src={logo} alt="Logo" className="logo" />
                 <div>
-                    <button className="nav-btn lang-btn">English <img src={downIcon} /></button>
+                    <button className="nav-btn lang-btn">English <img src={downIcon} alt='No Preview'/></button>
                     <button className="nav-btn">Sign In</button>
                 </div>
             </nav>
